@@ -11,6 +11,9 @@
 	"version": "v1.0.0",
 	"developer": "BlueBlock6",
 	"description": "Disables smooth scrolling in lists and editor",
+    "links": {
+        "source": "https://github.com/blueblock6/NoSmoothScroll"
+    },
     "settings": {
         "list-wheel": {
             "name": "Disable List Wheel Smoothing",
