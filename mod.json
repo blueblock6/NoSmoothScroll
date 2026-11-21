@@ -1,0 +1,41 @@
+{
+	"geode": "6.0.0-beta.1",
+	"gd": {
+		"win": "2.2091",
+		"android": "2.2091",
+		"mac": "2.2091",
+		"ios": "2.2091"
+	},
+	"id": "blueblock6.nosmoothscroll",
+	"name": "No Smooth Scroll",
+	"version": "v1.0.0",
+	"developer": "BlueBlock6",
+	"description": "Disables smooth scrolling in lists and editor",
+    "settings": {
+        "list-wheel": {
+            "name": "Disable List Wheel Smoothing",
+            "description": "Disables scroll wheel smoothing in lists",
+            "type": "bool",
+            "default": true
+        },
+        "list-touch": {
+            "name": "Disable List Touch Smoothing",
+            "description": "Disables touch scroll smoothing in lists",
+            "type": "bool",
+            "default": true
+        },
+        "instant-touch-constraint": {
+            "name": "Instant Bounds Constraint",
+            "description": "Instantly constrains lists when scrolling out of bounds. Can be a bit jarring.",
+            "type": "bool",
+            "default": false,
+            "enable-if": "list-touch"
+        },
+        "editor-wheel": {
+            "name": "Disable Editor Wheel Smoothing",
+            "description": "Disables scroll wheel smoothing in editor",
+            "type": "bool",
+            "default": true
+        }
+    }
+}
